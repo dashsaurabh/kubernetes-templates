@@ -8,5 +8,6 @@ spec:
   containers:
     - name: docker-react-app
       image: dashsaurabh/progressive-coder
+      imagePullPolicy: Always
       ports: 
       - containerPort: 3000
